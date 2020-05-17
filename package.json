@@ -1,0 +1,35 @@
+{
+  "name": "svelte-date-range-select",
+  "repository": "https://github.com/brettdawkins/svelte-date-range-select",
+  "version": "1.0.4",
+  "description": "A svelte component with a HTML5 date picker attached to input range sliders",
+  "svelte": "src/DateRangeSelect.svelte",
+  "module": "index.mjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -cw"
+  },
+  "devDependencies": {
+    "rollup": "^2.3.2",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-svelte": "^5.1.0",
+    "rollup-plugin-commonjs": "^10.0.0",
+    "svelte": "^3.20.1"
+  },
+  "author": "Brett Dawkins",
+  "license": "LIL",
+  "keywords": [
+    "svelte",
+    "svelte date range picker",
+    "svelte date range",
+    "svelte date picker",
+    "date picker with range"
+  ],
+  "files": [
+    "src",
+    "index.mjs",
+    "index.js",
+    "DateRangeSelect.js"
+  ]
+}
